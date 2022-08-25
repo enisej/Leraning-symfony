@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+=======
+body {
+    background-color: lightgray;
+}
+>>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e

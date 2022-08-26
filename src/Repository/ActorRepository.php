@@ -21,10 +21,6 @@ class ActorRepository extends ServiceEntityRepository
         parent::__construct($registry, Actor::class);
     }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e
     public function add(Actor $entity, bool $flush = false): void
     {
         $this->getEntityManager()->persist($entity);

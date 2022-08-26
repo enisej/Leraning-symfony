@@ -21,10 +21,6 @@ class MovieRepository extends ServiceEntityRepository
         parent::__construct($registry, Movie::class);
     }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e
     public function add(Movie $entity, bool $flush = false): void
     {
         $this->getEntityManager()->persist($entity);

@@ -2,7 +2,7 @@
 
 namespace App\DataFixtures;
 
-<<<<<<< HEAD
+
 use App\Entity\Actor;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
@@ -35,18 +35,5 @@ class ActorFixtures extends Fixture
         $this->addReference('actor_3', $actor3);
         $this->addReference('actor_4', $actor4);
 
-=======
-use Doctrine\Bundle\FixturesBundle\Fixture;
-use Doctrine\Persistence\ObjectManager;
-
-class AppFixtures extends Fixture
-{
-    public function load(ObjectManager $manager): void
-    {
-        // $product = new Product();
-        // $manager->persist($product);
-
-        $manager->flush();
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e
     }
 }

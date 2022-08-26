@@ -77,7 +77,6 @@ Encore
         }
     })
 
-<<<<<<< HEAD
     .copyFiles({
         from: './assets/images',
         to: 'images/[path][name].[hash:8].[ext]',
@@ -88,8 +87,8 @@ Encore
 
 module.exports = Encore.getWebpackConfig();
 
-=======
+
 ;
 
 module.exports = Encore.getWebpackConfig();
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e
+

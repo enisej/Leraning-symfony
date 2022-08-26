@@ -9,7 +9,4 @@ export const app = startStimulusApp(require.context(
 
 // register any custom, 3rd party controllers here
 // app.register('some_controller_name', SomeImportedController);
-<<<<<<< HEAD
 
-=======
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e

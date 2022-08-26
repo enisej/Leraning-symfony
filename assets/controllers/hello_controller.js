@@ -14,7 +14,4 @@ export default class extends Controller {
         this.element.textContent = 'Hello Stimulus! Edit me in assets/controllers/hello_controller.js';
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e

@@ -50,10 +50,7 @@ class Actor
     {
         return $this->movies;
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e
     public function addMovie(Movie $movie): self
     {
         if (!$this->movies->contains($movie)) {

@@ -37,7 +37,4 @@ final class Version20220825065244 extends AbstractMigration
         $this->addSql('DROP TABLE movie_actor');
     }
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e

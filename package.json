@@ -4,10 +4,7 @@
         "@symfony/stimulus-bridge": "^3.2.0",
         "@symfony/webpack-encore": "^3.0.0",
         "core-js": "^3.23.0",
-<<<<<<< HEAD
         "file-loader": "^6.2.0",
-=======
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e
         "glob-all": "^3.3.0",
         "path": "^0.12.7",
         "postcss-loader": "^7.0.1",

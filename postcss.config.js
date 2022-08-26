@@ -7,7 +7,4 @@ module.exports = {
       require('autoprefixer')
   ]
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 959fd2a4a3a9679595c802c7772674a48a37b82e
